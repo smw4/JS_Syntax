@@ -6,6 +6,8 @@ function howOld(ageNow, userYear) {
 	let yearsUntilX = userYear - currentYear; // how many years between the current year and the inputed year
 	let howOld = ageNow + yearsUntilX; // how old you were or will be according to the userYear parameter.
 
+	howOld = Math.abs(howOld);
+
 	if (userYear > 2022) {
 		//If the year is in the future
 		return `You will be ${howOld} in the year ${userYear}`;
@@ -23,4 +25,4 @@ function howOld(ageNow, userYear) {
 }
 
 // Once your function is written, write function calls to test your code!
-console.log(howOld(33, 1989));
+console.log(howOld(33, 1980));
