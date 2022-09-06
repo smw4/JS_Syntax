@@ -1,0 +1,1 @@
+JS_Syntax is a repo of my solutions to simple JavaScript practice problems from CodeCademy. See https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-javascript-syntax-part-i/modules/wdcp-22-introduction-javascript-syntax-part-i/informationals/wdcp-22-introduction-javascript-syntax-part-i
