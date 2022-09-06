@@ -21,7 +21,7 @@ const finalGrade = (num1, num2, num3) => {
 	} else if (numAvg > 79 && numAvg <= 89) {
 		return 'B'; //80-89 should return: 'B'
 	} else if (numAvg > 59 && numAvg <= 69) {
-		return 'D'; //90-100 should return: 'A'
+		return 'A'; //90-100 should return: 'A'
 	} else {
 		return 'errror!';
 	}
